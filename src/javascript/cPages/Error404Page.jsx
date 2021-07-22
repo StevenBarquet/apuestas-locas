@@ -1,7 +1,7 @@
 // ---Dependencys
 import React from 'react';
 import { Helmet } from 'react-helmet';
-// ---Components
+// ---Containers
 import Error404Cont from 'Cont/Error404Cont';
 
 // ------------------------------------------ COMPONENT-----------------------------------------

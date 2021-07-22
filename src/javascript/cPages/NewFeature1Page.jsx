@@ -1,19 +1,19 @@
 // ---Dependencys
 import React from 'react';
 import { Helmet } from 'react-helmet';
-// ---Components
-import ImageExCont from 'Cont/ImageExCont';
+// ---Containers
+import NewFeature1 from 'Cont/NewFeature1';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
-const ImageExPage = () => {
+const NewFeature1Page = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Ejemplo con imagen</title>
+        <title>Bomtz | Awesome Feature</title>
       </Helmet>
-      <ImageExCont />
+      <NewFeature1 />
     </React.Fragment>
   );
 };
 
-export default ImageExPage;
+export default NewFeature1Page;

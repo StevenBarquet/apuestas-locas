@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import showFlagReducer from 'Reducers/showFlag';
+import appInfoReducer from 'Reducers/appInfo';
 
 export default combineReducers({
-  showFlagReducer
+  appInfoReducer
 });

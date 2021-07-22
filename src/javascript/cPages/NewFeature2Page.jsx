@@ -2,18 +2,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 // ---Containers
-import Home from 'Cont/Home';
+import NewFeature2 from 'Cont/NewFeature2';
 
 // ------------------------------------------ COMPONENT-----------------------------------------
-const HomePage = () => {
+const NewFeature2Page = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Rabbit | Home</title>
+        <title>Bomtz | Awesome Feature</title>
       </Helmet>
-      <Home />
+      <NewFeature2 />
     </React.Fragment>
   );
 };
 
-export default HomePage;
+export default NewFeature2Page;
